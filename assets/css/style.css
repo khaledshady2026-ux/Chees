@@ -1,0 +1,1608 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Cairo", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+:root{
+    --bold : bold;
+    --sbold : sbold;
+    --direction : rtl;
+    --scolor : #0D395D;
+    --sbgcolor : #F0F0F0;
+    --sbgscolor : #1C77C3;
+}
+
+
+.Introductory{
+    width: 100%;
+}
+.Introductory .Introductory_Data{
+    width: 85%;
+    height: 283px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Introductory_Data .Introductory_Info{
+    width: 738px;
+    height: 177px;
+}
+.Introductory_Data .Introductory_Info h2{
+    width: 447px;
+    height: 67px;
+    font-family: var(--bold);
+    font-size: 36px;
+    color: #00247D;
+    margin-bottom: 20px;
+}
+.Introductory_Data .Introductory_Info p{
+    width: 673px;
+    height: 90px;
+    font-family: var(--sbold);
+    font-size: 16px;
+    color: #000;
+    text-align: justify;
+    padding-right: 35px;
+}
+.Board_Of_Directors{
+    width: 100%;
+    height: 1000px;
+    background: linear-gradient(to right , #0D395D  ,  #1C77C3 );
+    align-content: center;
+}
+.Board_Of_Directors .Board_Of_Directors_Data{
+    width:100%;
+    height: 870px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Board_Of_Directors_Data .Board_Of_Directors_Info{
+    width: 28%;
+    height: 870px;
+    align-content: center;
+}
+.Board_Of_Directors_Info h2{
+    width: 347px;
+    height: 134px;
+    font-family: var(--bold);
+    font-size: 36px;
+    color: #ffff;
+}
+.Board_Of_Directors_Data .Board_Of_Directors_All_Members{
+    width: 57%;
+    height: 870px;
+    gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-template-rows: repeat(2 , 1fr);
+}
+.Board_Of_Directors_All_Members div{
+    width: 414px;
+    height: 419px;
+}
+.Board_Of_Directors_All_Members div img{
+    width: 414px;
+    height: 325px;
+}
+.Board_Of_Directors_All_Members h4{
+    font-family: var(--sbold);
+    font-size: 16px;
+    color: #ffff;
+    margin: 6px 0;
+}
+.Board_Of_Directors_All_Members h3{
+    font-family: var(--bold);
+    font-size: 24px;
+    color: #ffff;
+    margin-bottom: 10px;
+}
+.Our_Vision{
+    width: 100%;
+    height: 900px;
+}
+.Our_Vision .Our_Vision_Data{
+    width: 90%;
+    height: 718.140380859375px;
+    margin: 80px auto;
+}
+.Our_Vision_Data .Our_Vision_Info{
+    width: 100%;
+    height: 226.14039611816406px;
+    margin-bottom: 60px;
+}
+.Our_Vision_Data .Our_Vision_Info img{
+    width: 57.421875px;
+    height: 57.1403923034668px;
+}
+.Our_Vision_Data .Our_Vision_Info h2{
+    width: 195px;
+    height: 67px;
+    font-family: var(--bold);
+    font-size: 36px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.Our_Vision_Data .Our_Vision_Info p{
+    width:694px ;
+    height: 90px;
+    font-family: var(--sbold);
+    font-size: 16px;
+    color: #000000;
+}
+.Our_Vision_Data .Our_Vision_Image{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.Our_Vision_Data .Our_Vision_Image img{
+    width: 984px;
+    height: 169px;
+}
+.Our_Vision_Data .Our_Vision_Message{
+    width: 50%;
+    float: left;
+}
+.Our_Vision_Data .Our_Vision_Message img{
+    width: 60px;
+    height: 60px;
+}
+.Our_Vision_Data .Our_Vision_Message h2{
+    width: 195px;
+    height: 67px;
+    font-family: var(--bold);
+    font-size: 36px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.Our_Vision_Data .Our_Vision_Message p {
+    width:694px ;
+    height: 90px;
+    font-family: var(--sbold);
+    font-size: 16px;
+    color: #000000;
+}
+
+/* ########## */
+.Historical_View{
+    width: 100%;
+    height: 500px;
+    background: linear-gradient( to top left , #0D395D   ,  #1C77C3  , #0D395D  );
+    align-content: center;
+}
+.Historical_View .Historical_View_Data{
+    background: none;
+    width: 90%;
+    height: 432px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Historical_View_Data .Historical_View_Info{
+    width: 731px;
+    height: 317px;
+}
+.Historical_View_Info h2{
+    width:731px ;
+    height: 67px;
+    font-family: var(--bold);
+    font-size: 36px;
+    color: #ffff;
+    margin-bottom: 20px;
+}
+.Historical_View_Info p{
+    width: 731px;
+    height:120px ;
+    font-family: var(--sbold);
+    font-size: 16px;
+    color: #ffff;
+}
+
+.club_Games{
+    width: 100%;
+    height: 550px;
+    align-content: center;
+}
+.club_Games .club_Games_Data{
+    width: 90%;
+    height: 447px;
+    margin: 0 auto;
+    text-align: center;
+}
+.club_Games_Data h2{
+    width: 100%;
+    height:45px ;
+    font-family: var(--bold);
+    font-size: 24px;
+    color: #1E1E1E;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.club_Games_Data p{
+    width: 70%;
+    height: 52px;
+    margin: 0 auto;
+    font-family: var(--bold);
+    font-size: 14px;
+    color: #444444;
+    margin-bottom: 50px;
+}
+.club_Games_Data .All_Games{
+    width: 100%;
+    height: 310px;
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+}
+.club_Games_Data .All_Games div{
+    width: 305px;
+    height: 310px;
+    background-color:  #7933019f;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px ;
+    border-bottom-right-radius:10px ;
+    border-bottom-left-radius:10px ;
+}
+.club_Games_Data .All_Games div img{
+    width: 305px;
+    height: 229px;
+}
+.club_Games_Data .All_Games div a , button{
+    width: 305px;
+    height:81px ;
+    background-color: #1C77C3;
+    border: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:10px ;
+    font-family: var(--bold);
+    font-size: 20px;
+    color: #fff;
+}
+.club_Games_Data .All_Games div a :hover{
+    background-color: #F0F0F0;
+    color: #0d5895;
+}
+
+/* ######################################################################################################################################## */
+/* ######################################################################################################################################## */
+/* ############################################################  Mobile version  ########################################################## */
+/* ######################################################################################################################################## */
+/* ######################################################################################################################################## */
+@media(max-width:768px) {
+.Introductory{
+    width: 100%;
+}
+
+.Introductory .Introductory_Data {
+    width: 90%;
+    height: auto;
+    margin: 30px auto;
+    
+}
+.Introductory_Data .Introductory_Info {
+    width: 75%;
+    height: auto;
+}
+.Introductory_Data .Introductory_Info h2 {
+    width: 195px;
+    height: 90px;
+    font-size: 24px;
+}
+.Introductory_Data .Introductory_Info p{
+    width: 351px;
+    height: 76px;
+    font-size: 10px;
+    padding-right: 0;
+}
+.Introductory_Data .Introductory_Image {
+    width: 25%;
+    height: auto;
+    position: relative;
+}
+.Introductory_Data .Introductory_Image img{
+    width: 67px;
+    height: 104px;
+    position: absolute;
+    bottom: 0px;
+    right: 15px;
+}
+.Board_Of_Directors {
+    width: 100%;
+    height: auto;
+    display: block;
+    background: linear-gradient(to bottom , #0D395D  ,  #1C77C3 );
+}
+.Board_Of_Directors .Board_Of_Directors_Data {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+.Board_Of_Directors_Data .Board_Of_Directors_Info {
+    width:100%;
+    height: auto;
+}
+.Board_Of_Directors_Info h2 {
+    width: auto;
+    height: auto;
+    font-size: 24px;
+    margin: 50px 0 100px 0;
+}
+.Board_Of_Directors_Data .Board_Of_Directors_All_Members {
+    width: auto;
+    height: auto;
+    gap: 0;
+    display: block;
+}
+.Board_Of_Directors_All_Members div {
+   width: auto;
+   height: auto;
+   margin-bottom: 50px;
+}
+.Board_Of_Directors_All_Members div img{
+    width: 100%;
+}
+.Our_Vision {
+    width: 100%;
+    height: auto;
+}
+.Our_Vision .Our_Vision_Data {
+    width: 85%;
+    margin: 50px auto;
+    height: auto;
+}
+.Our_Vision_Data .Our_Vision_Info{
+    margin-bottom: 0px;
+}
+.Our_Vision_Data .Our_Vision_Info img{
+    width:40px;
+    height: 40px;
+}
+.Our_Vision_Data .Our_Vision_Info h2 {
+    width: 195px;
+    height: auto;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.Our_Vision_Data .Our_Vision_Info p {
+    width: auto;
+    height: auto;
+    font-family: var(--sbold);
+    font-size: 12px;
+}
+.Our_Vision_Data .Our_Vision_Image img {
+    width: 100%;
+    height: auto;
+}
+.Our_Vision_Data .Our_Vision_Image{
+    margin-bottom: 50px;
+}
+.Our_Vision_Data .Our_Vision_Message img {
+    width: 40px;
+    height: 40px;
+}
+.Our_Vision_Data .Our_Vision_Message h2 {
+    width: 195px;
+    height: 67px;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+.Our_Vision_Data .Our_Vision_Message p {
+    width: auto;
+    height: auto;
+    font-size: 12px;
+}
+.Historical_View {
+    width: 100%;
+    height: auto;
+    background: linear-gradient( to top  , #0D395D   ,  #1C77C3  , #0D395D  );
+}
+.Historical_View .Historical_View_Data {
+    width: 85%;
+    height:auto;
+    margin: 80px auto;
+    display: block;
+}
+.Historical_View_Data .Historical_View_Info {
+    width: 100%;
+    margin: 0 auto;
+    height: 465px;
+}
+.Historical_View_Info h2 {
+    width: auto;
+    height: auto;
+    font-family: var(--bold);
+    font-size: 24px;
+    color: #ffff;
+    margin: 35px auto;
+}
+.Historical_View_Info p {
+    width: auto;
+    height: 130px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.Historical_View_Image {
+    width: auto;
+    height: auto;
+}
+.Historical_View_Image img{
+    width: 100%;
+    height: auto;
+}
+.club_Games {
+    width: 100%;
+    height: auto;
+}
+.club_Games .club_Games_Data {
+    width: 90%;
+    height: auto;
+}
+.club_Games_Data h2 {
+    width: auto;
+    height: auto;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.club_Games_Data p {
+    width: auto;
+    height: auto;
+    font-size: 12px;
+    margin-bottom: 40px;
+}
+.club_Games_Data .All_Games {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2 , 1fr);
+}
+.club_Games_Data .All_Games div{
+    width: auto;
+    height: auto;
+}
+.club_Games_Data .All_Games div img {
+    width: 100%;
+    height: auto;
+}
+.club_Games_Data .All_Games div a{
+    width: 100%;
+}
+.club_Games_Data .All_Games div button{
+    width: 100%;
+    font-size: 20px;
+}
+}
+/* ##################################################################################################################################################################### */
+/* ##################################################################################################################################################################### */
+/* ######################################################################## Introductory End   ######################################################################### */
+/* ##################################################################################################################################################################### */
+/* ##################################################################################################################################################################### */
+
+
+
+/* ##################################################################################################################################################################### */
+/* ##################################################################################################################################################################### */
+/* ######################################################################## Training_Center Start   #################################################################### */
+/* ##################################################################################################################################################################### */
+/* ##################################################################################################################################################################### */
+
+.Training_Center{
+    width: 100%;
+}
+.Training_Center .Training_Center_Data{
+    width: 90%;
+    height: 620px;
+    margin: 0 auto;
+}
+
+.Training_Center_Data .Training_Center_Image{
+    width: 100%;
+    height: 390px;
+    text-align: center;
+}
+.Training_Center_Data .Training_Center_Image img{
+    width: 90%;
+    height: 390px;
+}
+.Training_Center_Data .Training_Center_Info{
+    width: 90%;
+    height: 208px;
+    margin: 50px auto;
+}
+.Training_Center_Data .Training_Center_Info h2{
+    width: 846px;
+    height:45px ;
+    margin: 0 auto;
+    font-family: var(--bold);
+    font-size: 32px;
+    color: #0D395D;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.Training_Center_Data .Training_Center_Info p{
+    width: 846px;
+    height: 72px;
+    margin: 0 auto;
+    font-family: var(--bold);
+    font-size: 20px;
+    color: #565656;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.Training_Center_Data .Training_Center_Info .Info_Prag{
+    width: 846px;
+    height: 60px;
+    margin: 0 auto;
+    font-family: var(--bold);
+    font-size: 16px;
+    color: #757574;
+    text-align: center;
+}
+.Center_Objectives{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.Center_Objectives .Center_Objectives_Info{
+    background: linear-gradient( to top  , #0D395D   ,  #1C77C3  , #0D395D  );
+    padding: 120px 80px;
+    
+}
+.Center_Objectives .Center_Objectives_Info h2{
+    font-family: var(--bold);
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+.Center_Objectives .Center_Objectives_Info p{
+    font-family: var(--bold);
+    font-size: 16px;
+    color: #ffffff;
+}
+.Trainers{
+    width: 100%;
+}
+.Trainers .Trainers_Data{
+    width: 90%;
+}
+/* ###################### */
+
+/* ################# */
+.Training_Courses{
+    width: 100%;
+    margin: 50px auto;
+}
+.Training_Courses .Training_Courses_Data{
+    width: 90%;
+    height: 578px;
+    margin: 0 auto;
+}
+.Training_Courses_Data h2 {
+    width: 100%;
+    font-family: var(--bold);
+    font-size: 36px;
+    color: #0D395D;
+    margin-bottom: 30px;
+}
+.Training_Courses_Data a{
+    width: 631px;
+    height: 123px;
+    display: flex;
+    gap: 20px;
+    background-color: #1C77C31A;
+    color: #000000;
+    margin-bottom: 30px;
+    align-items: center;
+    padding-right: 20px;
+    border: none;
+}
+.Training_Courses_Data .Trainers_Contact{
+    background-color: #1C77C31A;
+    width: 631px;
+    height: 193px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding-right: 20px;
+}
+.Tra_Con{
+    width: 100%;
+}
+.Cont_Trainers img{
+    width: 25px;
+    height: 25px;
+}
+.Cont_Trainers {
+    align-content: center;
+    margin-top: 5px;
+}
+.Tra_Con .Cont_Trainers{
+    display: flex;
+    gap: 15px;
+}
+.Tra_Con .Cont_Trainers{
+    width: 100%;
+}
+.Training_Courses_Data .Tra_Con{
+    padding-right: 20px;
+}
+.Training_Courses_Data .Training_All_Courses{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-template-rows: repeat(2 , 1fr);
+
+}
+.Training_Courses_Data .Training_All_Courses h3{
+    font-family: var(--bold);
+    font-size: 24px;
+    color: #000000;
+}
+.Training_Courses_Data .Training_All_Courses p{
+    font-family: var(--sbold);
+    font-size: 16px;
+    color: #000000;
+}
+
+/* ######################################################################################################################################## */
+/* ######################################################################################################################################## */
+/* ############################################################  Mobile version  ########################################################## */
+/* ######################################################################################################################################## */
+/* ######################################################################################################################################## */
+@media(max-width:768px) {
+.Training_Center {
+    width: 100%;
+    height: auto;
+}
+.Training_Center .Training_Center_Data {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+.Training_Center_Data .Training_Center_Image {
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+.Training_Center_Data .Training_Center_Image img {
+    width: 100%;
+    height: auto;
+}
+.Training_Center_Data .Training_Center_Info {
+    width: auto;
+    height: auto;
+    margin: 25px auto;
+}
+.Training_Center_Data .Training_Center_Info h2 {
+    width: auto;
+    height: auto;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.Training_Center_Data .Training_Center_Info p {
+    width: auto;
+    height: auto;
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+.Training_Center_Data .Training_Center_Info .Info_Prag {
+    width: auto;
+    height: auto;
+    font-size: 12px;
+}
+.Center_Objectives {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.Center_Objectives .Center_Objectives_Info {
+    padding: 30px 20px;
+}
+.Center_Objectives .Center_Objectives_Info h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.Center_Objectives .Center_Objectives_Info p {
+    font-size: 14px;
+}
+.Center_Objectives_Image {
+        height: 356px;
+}
+.Center_Objectives div img{
+    width: 100%;
+    height: auto;
+}
+.Training_Courses {
+    margin: 30px auto;
+}
+.Training_Courses .Training_Courses_Data {
+    width: 90%;
+    height: auto;
+}
+.Training_Courses_Data h2 {
+    width: auto;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.Training_Courses_Data .Training_All_Courses {
+   display: block;
+}
+.Training_Courses_Data a {
+    width: auto;
+    height: auto;
+    gap: 12px;
+    margin-bottom: 15px;
+    padding-right: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+.Training_All_Courses img{
+    width: 30px;
+    height: 30px;
+}
+.Training_Courses_Data .Training_All_Courses h3 {
+    font-size: 16px;
+}
+.Training_Courses_Data .Training_All_Courses p {
+    font-size: 11px;
+}
+.Training_Courses_Data .Trainers_Contact {
+    width: auto;
+    height: auto;
+    display: flex;
+    gap: 15px;
+}
+.Tra_Con .Cont_Trainers {
+    /* display: block; */
+    display: inline-block;
+    height: 40px;
+}
+.Cont_Trainers h5{
+    height: 40px;
+    align-content: center;
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: var(--bold);
+}
+.Training_All_Courses img {
+    width: 25px;
+    height: 24px;
+}
+}
+/* ##################################################################################################################################################################### */
+/* ##################################################################################################################################################################### */
+/* ######################################################################## Training_Center End   ##################################################################### */
+/* ##################################################################################################################################################################### */
+/* ##################################################################################################################################################################### */
+
+/* ##################################################################################################################################################################### */
+/* ##################################################################################################################################################################### */
+/* ######################################################################## Domino_game Start   ######################################################################## */
+/* ##################################################################################################################################################################### */
+/* ##################################################################################################################################################################### */
+.Domino_Game{
+    width: 100%;
+    height: 350px;
+}
+.Domino_Game .Domino_Game_Data{
+    width: 90%;
+    height:263px ;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.Domino_Game_Data .Domino_Game_Info{
+    height: 100%;
+    align-content: center;
+}
+.Domino_Game_Data .Domino_Game_Info h2{
+    font-family: var(--bold);
+    font-size: 24px;
+    color: #1E1E1E;
+    margin-bottom: 15px;
+}
+.Domino_Game_Data .Domino_Game_Info p{
+    width: 819px;
+    font-family: var(--bold);
+    font-size: 16px;
+    color: #565656;
+}
+.Domino_Game_Data .Domino_Game_Image{
+    height: 100%;
+}
+.Domino_Game_Data .Domino_Game_Image img{
+    width:263px ;
+    height:263px ;
+}
+.Game_System{
+    width: 100%;
+    height: 300px;
+}
+.Game_System .Game_System_Data{
+    width: 90%;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.Game_System_Data .How_To_Play{
+    width:630px ;
+    height: 170px;
+    background-color: #FFFFFF ;
+    padding: 30px;
+    border: none;
+    border-radius: 10px;
+}
+.Game_System_Data .How_To_Play h2{
+    font-family: var(--bold);
+    font-size: 24px;
+    color: #1E1E1E;
+    margin-bottom: 15px;
+}
+.Game_System_Data .How_To_Play ul{
+    padding-right: 20px;
+}
+.Game_System_Data .How_To_Play ul li{
+    font-family: var(--bold);
+    font-size: 16px;
+    color: #565656;
+}
+.Game_System_Data .Number_Of_Players{
+    width:630px ;
+    height: 170px;
+    background: linear-gradient( to right   ,  #1C77C3  , #0D395D  );
+    padding: 30px;
+    border: none;
+    border-radius: 10px;
+}
+.Game_System_Data .Number_Of_Players h2{
+    font-family: var(--bold);
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+.Game_System_Data .Number_Of_Players ul{
+    padding-right: 20px;
+
+}
+.Game_System_Data .Number_Of_Players ul li{
+    font-family: var(--bold);
+    font-size: 16px;
+    color: #ffffff;
+}
+.Organizing_Tournaments{
+    width: 100%;
+    height: 600px;
+}
+.Organizing_Tournaments .Organizing_Tournaments_Data{
+    width: 73%;
+    height: 448px;
+    margin: 0 auto;
+}
+.Organizing_Tournaments_Data h2{
+    width: 100%;
+    text-align: center;
+    font-family: var(--bold);
+    font-size: 24px;
+    color: #0D395D;
+    margin-bottom: 15px;
+}
+.Organizing_Tournaments_Data .Organizing_Tournaments_Image{
+    width: 100%;
+    height: 320px;
+    text-align: center;
+}
+.Organizing_Tournaments_Data .Organizing_Tournaments_Image img{
+    width: 818px;
+    height: 301px;
+}
+/* ############# remove ########## */
+.Upcoming_Tournaments{
+    width: 100%;
+    height: 620px;
+}
+.Upcoming_Tournaments .Upcoming_Tournaments_Data{
+    width: 90%;
+    height: 580px;
+    margin: 0 auto;
+}
+.Upcoming_Tournaments_Data h2{
+    width: 100%;
+    font-family: var(--bold);
+    font-size: 24px;
+    color: #1E1E1E;
+    margin-bottom: 30px;
+}
+.Upcoming_Tournaments_Data .Kuwait_Championship{
+    width: 90%;
+    margin: 0 auto;
+    height: 383px;
+    background: linear-gradient( to left   ,  #1C77C3  , #0D395D  );
+    border: #1C77C3 solid .5px ;
+    padding: 50px;
+}
+.Kuwait_Championship .Kuwait_Championship_Date{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.Kuwait_Championship_Date .Start_Registration{
+    width: 200px;
+    height: 30px;
+    background: none;
+}
+.Kuwait_Championship_Date .Start_Registration h4{
+    font-family: var(--sbold);
+    font-size: 16px;
+    color: #F0F0F0;
+}
+.Kuwait_Championship_Date .Registration_Ends{
+    width: 245px;
+    height: 50px;
+    background-color: #E01E26;
+    border-radius: 10px;
+    align-content: center;
+    padding-right: 20px;
+}
+.Kuwait_Championship_Date .Registration_Ends h4{
+    font-family: var(--bold);
+    font-size: 16px;
+    color: #F0F0F0;
+}
+.Upcoming_Tournaments_Data .Kuwait_Championship h2{
+    font-family: var(--bold);
+    font-size: 24px;
+    color: #F0F0F0;
+}
+.Upcoming_Tournaments_Data .Kuwait_Championship p{
+    font-family: var(--sbold);
+    font-size: 16px;
+    color: #F0F0F0;
+    margin-bottom: 30px;
+}
+.Kuwait_Championship .Place_And_Number{
+    width: 392px;
+    height: 32px;
+    display: flex;
+    gap: 36px;
+    margin-bottom: 30px;
+}
+.Kuwait_Championship .Place_And_Number .Place{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.Kuwait_Championship .Place_And_Number .Place h5{
+    font-family: var(--bold);
+    font-size: 16px;
+    color: #F0F0F0;
+}
+.Kuwait_Championship .Place_And_Number .Number{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.Kuwait_Championship .Place_And_Number .Number h5{
+    font-family: var(--bold);
+    font-size: 16px;
+    color: #F0F0F0;
+}
+.Upcoming_Tournaments_Data a {
+    width:224px;
+    height: 50px;
+    background-color: #F0F0F0;
+    color: #1C77C3;
+    font-family: var(--bold);
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+    border: none;
+    border-radius: 10px;
+}
+.Upcoming_Tournaments_Data a :hover{
+    background-color: #098c14;
+    color: #ffff ;
+}
+/* ######### remove ############# */
+.Previous_Tournaments{
+    width: 100%;
+    height: 300px;
+}
+.Previous_Tournaments_Data {
+    width: 90%;
+    height: 300px;
+    margin: 0 auto;
+}
+.Previous_Tournaments_Data h2{
+    width: 100%;
+    text-align: center;
+    font-family: var(--bold);
+    font-size: 24px;
+    color: #1E1E1E;
+    margin-bottom: 30px;
+
+}
+.Previous_Tournaments_Data .Previous_Tournaments_All_Games{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+}
+/* ######################################################################################################################################## */
+/* ######################################################################################################################################## */
+/* ############################################################  Mobile version  ########################################################## */
+/* ######################################################################################################################################## */
+/* ######################################################################################################################################## */
+@media(max-width:768px) {
+.Domino_Game .Domino_Game_Data {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    justify-content: space-between;
+}
+.Domino_Game_Data .Domino_Game_Info h2 {
+    font-size: 22px;
+}
+.Domino_Game_Data .Domino_Game_Info p {
+    width: 100%;
+    font-family: var(--bold);
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.Domino_Game_Data .Domino_Game_Image {
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+    border-radius: 10px;
+}
+.Domino_Game_Data .Domino_Game_Image img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.Domino_Game {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+.Game_System {
+    width: 100%;
+    height:auto;
+    margin-bottom: 30px;
+}
+.Game_System .Game_System_Data {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+.Game_System_Data .How_To_Play {
+    width: auto;
+    height: auto;
+    background-color: #FFFFFF;
+    padding: 0;
+    margin-bottom: 15px;
+}
+.Game_System_Data .How_To_Play h2 {
+    font-size: 22px;
+}
+.Game_System_Data .How_To_Play ul li {
+    font-size: 14px;
+}
+.Game_System_Data .Number_Of_Players {
+    width: auto;
+    height: auto;
+    background: linear-gradient(to right, #1C77C3, #0D395D);
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+}
+.Game_System_Data .Number_Of_Players h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.Game_System_Data .Number_Of_Players ul li {
+    font-size: 12px;
+}
+.Organizing_Tournaments {
+    width: 100%;
+    height: auto;
+}
+.Organizing_Tournaments .Organizing_Tournaments_Data {
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
+}
+.Organizing_Tournaments_Data h2 {
+    width: auto;
+    height: auto;
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+.Organizing_Tournaments_Data .Organizing_Tournaments_Image {
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+.Organizing_Tournaments_Data .Organizing_Tournaments_Image img {
+    width: 100%;
+    height: auto;
+}
+.Upcoming_Tournaments {
+    width: 100%;
+    height: auto;
+}
+.Upcoming_Tournaments .Upcoming_Tournaments_Data {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+.Upcoming_Tournaments_Data h2 {
+    width: auto;
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.Upcoming_Tournaments_Data .Kuwait_Championship {
+    width: auto;
+    margin: 0 auto;
+    height: auto;
+    padding: 25px;
+    border-radius: 5px;
+}
+.Kuwait_Championship .Kuwait_Championship_Date {
+    width: auto;
+    margin-bottom: 20px;
+}
+.Kuwait_Championship_Date .Start_Registration {
+    width: 130px;
+    height: 40px;
+    background: none;
+    align-content: center;
+}
+.Kuwait_Championship_Date .Start_Registration h4 {
+    font-size: 12px;
+}
+.Kuwait_Championship_Date .Registration_Ends {
+    width: 190px;
+    height: 40px;
+    text-align: center;
+    align-content: center;
+    padding: 0;
+}
+.Kuwait_Championship_Date .Registration_Ends h4 {
+    font-size: 12px;
+}
+.Upcoming_Tournaments_Data .Kuwait_Championship h2 {
+    font-size: 22px;
+}
+.Upcoming_Tournaments_Data .Kuwait_Championship p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.Kuwait_Championship .Place_And_Number {
+    width: auto;
+    height: auto;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.Kuwait_Championship .Place_And_Number .Place img{
+    width: 25px;
+    height: 25px;
+}
+.Kuwait_Championship .Place_And_Number .Place h5 {
+    font-size: 12px;
+}
+.Kuwait_Championship .Place_And_Number .Number img{
+    width: 25px;
+    height: 25px;
+}
+.Kuwait_Championship .Place_And_Number .Number h5 {
+    font-size: 12px;
+}
+.Kuwait_Championship .Place_And_Number .Number {
+    gap: 3px;
+}
+.Kuwait_Championship .Place_And_Number .Place {
+    gap: 3px;
+}
+.Upcoming_Tournaments_Data a {
+    width: 170px;
+    height: 45px;
+    color: #10558f;
+    font-size: 13px;
+    border-radius: 7px;
+}
+.Previous_Tournaments {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+.Previous_Tournaments_Data {
+    width: 90%;
+    height: auto;
+}
+.Previous_Tournaments_Data h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.Previous_Tournaments_Data .Previous_Tournaments_All_Games {
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:10px;
+}
+.Previous_Tournaments_Data .Previous_Tournaments_All_Games img{
+    width: 100%;
+    height: auto;
+}
+
+}
+/* ##################################################################################################################################################################### */
+/* ##################################################################################################################################################################### */
+/* ######################################################################## Domino_game End   ######################################################################## */
+/* ##################################################################################################################################################################### */
+/* ##################################################################################################################################################################### */
+
+/* ##################################################################################################################################################################### */
+/* ##################################################################################################################################################################### */
+/* ###################################################################### Media Coverage Start   ###################################################################### */
+/* ##################################################################################################################################################################### */
+/* ##################################################################################################################################################################### */
+.Media_Coverage{
+    width: 100%;
+    height: 900px;
+}
+.Media_Coverage .Media_Coverage_Data{
+    width: 90%;
+    margin: 0 auto;
+}
+.Media_Coverage_Data .Media_Coverage_Info{
+    width: 85%;
+    height: 173px;
+    margin: 0 auto;
+    text-align: center;
+}
+.Media_Coverage_Data .Media_Coverage_Info h2{
+    font-family: var(--bold);
+    font-size: 32px;
+    color: #0D395D;
+}
+.Media_Coverage_Data .Media_Coverage_Info h3{
+    font-family: var(--bold);
+    font-size: 22px;
+    color: #1E1E1E;
+}
+.Media_Coverage_Data .Media_Coverage_Info p{
+    font-family: var(--bold);
+    font-size: 14px;
+    color: #444444;
+}
+
+/* ######################################################################################################################################## */
+/* ######################################################################################################################################## */
+/* ############################################################  Mobile version  ########################################################## */
+/* ######################################################################################################################################## */
+/* ######################################################################################################################################## */
+@media(max-width:768px) {
+}
+
+
+/* ##################################################################################################################################################################### */
+/* ##################################################################################################################################################################### */
+/* ###################################################################### Media Coverage End   ###################################################################### */
+/* ##################################################################################################################################################################### */
+/* ##################################################################################################################################################################### */
+
+/* ##################################################################################################################################################################### */
+/* ##################################################################################################################################################################### */
+/* ###################################################################### Contact Start   ###################################################################### */
+/* ##################################################################################################################################################################### */
+/* ##################################################################################################################################################################### */
+.Contact{
+    width: 100%;
+    height: 1340px;
+}
+.Contact .Contact_Data{
+    width: 75%;
+    height: 1340px;
+    margin: 0 auto;
+}
+.Contact_Data .Contact_Info{
+    width: 100%;
+    height: 117px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.Contact_Info h2{
+    font-family: var(--bold);
+    font-size: 32px;
+    color: #0D395D;
+}
+.Contact_Info h3{
+    font-family: var(--bold);
+    font-size: 22px;
+    color: #1E1E1E;
+}
+.Contact_Data .Contact_Hours{
+    width: 100%;
+    height: 345px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.Contact_Hours .Contact_Information{
+    width: 65%;
+    height: 217px;
+    background: linear-gradient( to left   ,  #1C77C3  , #0D395D  );
+    padding: 50px;
+    border: none;
+    border-radius: 5px;
+}
+.Contact_Hours .working_Hours{
+    width: 35%;
+    height: 217px;
+    border:#C2C2C2CC solid .5px ;
+    border-radius: 5px;
+    padding: 50px;
+    align-content: center;
+}
+.Contact_Information h2{
+    font-family: var(--bold);
+    font-size: 24px;
+    color: #F0F0F0;
+    margin-bottom:20px ;
+}
+.Contact_Information div{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.Contact_Information div img{
+    width: 25px;
+    height: 30px;
+}
+.Contact_Information div h5{
+    font-family: var(--bold);
+    font-size: 16px;
+    color: #F0F0F0;
+}
+.Contact_Hours .working_Hours h2{
+    font-family: var(--bold);
+    font-size: 24px;
+    color: #0D395D;
+}
+.Contact_Hours .working_Hours p{
+    font-family: var(--bold);
+    font-size: 16px;
+    color: #565656;
+}
+.Contact_Data .Contact_Form{
+    width: 100%;
+    height: 548px;
+    text-align: center;
+    background-color:#ffffffbc ;
+}
+.Contact_Data .Contact_Form h2{
+    font-family: var(--bold);
+    font-size: 36px;
+    color: #0D395D;
+    margin-bottom:20px ;
+}
+ .Contact_Form form input{
+    width: 98%;
+    height: 48px;
+    border: #8a8a8a98 solid 1px;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    direction:rtl;
+}
+.Contact_Form form input::placeholder{
+    font-family: var(--sbold);
+    font-size: 16px;
+    color: #0D395D;
+}
+ .Contact_Form .Contact_Form_In{
+    display: flex;
+    gap: 20px;
+}
+ .Contact_Form .Contact_Form_Of{
+    height: 120px;
+ }
+ .Contact_Form button {
+    width: 269px;
+    height: 80px;
+    background-color: #0D395D;
+    border-radius: 10px;
+    display: inline-block;
+    align-content: center;
+    text-align: center;
+    color: #F0F0F0;
+    font-family: var(--bold);
+    font-size: 24px;
+    border: #44444452 solid 2px;
+ }
+ 
+ .Contact_Form button:hover{
+    background-color: #0d395d38;
+    color: #0D395D;
+    cursor: pointer;
+ }
+.Contact_Data .Social_Networking {
+    width:100% ;
+    height: 175px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px auto;
+    background: linear-gradient( to left   ,  #1C77C3  , #0D395D  );
+    border-radius: 5px;
+}
+.Contact_Data .Social_Networking  h3{
+    font-family: var(--bold);
+    font-size: 24px;
+    color: #f4f4f4;
+    margin-bottom:20px ;
+}
+.Contact_Data .Social_Networking div{
+    display: flex;
+    gap: 20px;
+}
+.Contact_Data .Social_Networking div img{
+    width: 40px;
+    height: 40px;
+}
+
+/* ######################################################################################################################################## */
+/* ######################################################################################################################################## */
+/* ############################################################  Mobile version  ########################################################## */
+/* ######################################################################################################################################## */
+/* ######################################################################################################################################## */
+@media(max-width:768px) {
+.Contact .Contact_Data {
+    width: 85%;
+    height: auto;
+}
+.Contact_Info h2 {
+    font-family: var(--bold);
+    font-size: 20px;
+}
+.Contact_Info h3 {
+    font-size: 16px;
+}
+.Contact_Data .Contact_Hours {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.Contact_Hours .Contact_Information {
+    width: auto;
+    height: auto;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.Contact_Hours .working_Hours {
+    width: auto;
+    height: 165px;
+    padding: 20px;
+}
+.Contact_Information h2 {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+.Contact_Information div img {
+    width: 25px;
+    height: 30px;
+}
+.Contact_Information div h5 {
+    font-size: 14px;
+}
+.Contact_Data .Contact_Info {
+    height: auto;
+    margin-bottom: 25px;
+}
+.Contact_Hours .working_Hours h2 {
+    font-size: 16px;
+}
+.Contact_Hours .working_Hours p {
+    font-size: 14px;
+}
+.Contact_Data .Contact_Form h2 {
+    font-size: 34px;
+}
+.Contact_Data .Contact_Form {
+    width: 100%;
+    height: auto;
+}
+.Contact_Data .Contact_Form {
+    width: auto;
+    height: auto;
+}
+.Contact_Form .Contact_Form_In {
+    display: block;
+    gap: 20px;
+}
+.Contact_Form form input {
+    width: 90%;
+    height: 45px;
+    margin-bottom: 15px;
+    font-size: 10px;
+}
+.Contact_Form .Contact_Form_Of {
+    height: 65px;
+    margin-bottom: 30px;
+}
+.Contact_Form button {
+    width: 269px;
+    height: 60px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.Contact_Data .Social_Networking {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 30px auto;
+    padding: 30px 0 30px 0;
+}
+.Contact_Data .Social_Networking div {
+    display: flex;
+    /* justify-content: center; */
+    text-align: center;
+    gap: 15px;
+    padding: 10px;
+}
+.Contact_Data .Social_Networking h3 {
+    font-size: 16px;;
+    margin-bottom: 0;
+}
+.Contact_Data .Social_Networking div img {
+    width: 30px;
+    height: 30px;
+}
+
+}
+
+/* ##################################################################################################################################################################### */
+/* ##################################################################################################################################################################### */
+/* ###################################################################### Contact End   ###################################################################### */
+/* ##################################################################################################################################################################### */
+/* ##################################################################################################################################################################### *
+
+/* ################################################################# */
+/* ####################### Start Font Face ######################## */
+/* ################################################################# */
+@font-face {
+    font-family: bold;
+    src: url(../fonts/Cairo-Bold.ttf);
+}
+
+@font-face {
+    font-family: sbold;
+    src: url(../fonts/Cairo-SemiBold.ttf);
+}
+
+/* ################################################################# */
+/* ####################### End  Font Face ######################## */
+/* ################################################################# */
