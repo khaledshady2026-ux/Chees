@@ -295,11 +295,12 @@ a {
 @media(max-width:768px) {
 .Introductory{
     width: 100%;
+    height: auto;
 }
 
 .Introductory .Introductory_Data {
     width: 90%;
-    height: auto;
+    height: 225px;
     margin: 30px auto;
     
 }
@@ -398,6 +399,10 @@ a {
     width: 100%;
     height: auto;
 }
+.Our_Vision_Data .Our_Vision_Message{
+    width: 100%;
+    height: auto;
+ }
 .Our_Vision_Data .Our_Vision_Image{
     margin-bottom: 50px;
 }
@@ -450,6 +455,7 @@ a {
     width: auto;
     height: auto;
 }
+
 .Historical_View_Image img{
     width: 100%;
     height: auto;
