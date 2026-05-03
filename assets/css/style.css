@@ -30,6 +30,8 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    overflow: hidden;
 }
 .Introductory_Data .Introductory_Info{
     width: 738px;
@@ -85,6 +87,8 @@ a {
     display: grid;
     grid-template-columns: repeat(2 , 1fr);
     grid-template-rows: repeat(2 , 1fr);
+    position: relative;
+    overflow: hidden;
 }
 .Board_Of_Directors_All_Members div{
     width: 414px;
@@ -108,17 +112,24 @@ a {
 }
 .Our_Vision{
     width: 100%;
-    height: 900px;
+    height: 950px;
+    position: relative;
+    overflow: hidden;
 }
 .Our_Vision .Our_Vision_Data{
     width: 90%;
-    height: 718.140380859375px;
+    height: 100%;
     margin: 80px auto;
+    position: relative;
+    overflow: hidden;
+
 }
 .Our_Vision_Data .Our_Vision_Info{
     width: 100%;
-    height: 226.14039611816406px;
-    margin-bottom: 60px;
+    height: 300px;
+    align-content: center;
+    position: relative;
+    overflow: hidden;
 }
 .Our_Vision_Data .Our_Vision_Info img{
     width: 57.421875px;
@@ -150,7 +161,9 @@ a {
 }
 .Our_Vision_Data .Our_Vision_Message{
     width: 50%;
+    height: 245px;
     float: left;
+    align-content: center;
 }
 .Our_Vision_Data .Our_Vision_Message img{
     width: 60px;
@@ -165,7 +178,7 @@ a {
     margin-bottom: 20px;
 }
 .Our_Vision_Data .Our_Vision_Message p {
-    width:694px ;
+    width:680px ;
     height: 90px;
     font-family: var(--sbold);
     font-size: 16px;
@@ -242,6 +255,8 @@ a {
     height: 310px;
     display: grid;
     grid-template-columns: repeat(4 , 1fr);
+    position: relative;
+    overflow: hidden;
 }
 .club_Games_Data .All_Games div{
     width: 305px;
@@ -500,11 +515,15 @@ a {
 
 .Training_Center{
     width: 100%;
+    position: relative;
+    overflow: hidden;
 }
 .Training_Center .Training_Center_Data{
     width: 90%;
     height: 620px;
     margin: 0 auto;
+    position: relative;
+    overflow: hidden;
 }
 
 .Training_Center_Data .Training_Center_Image{
@@ -554,11 +573,14 @@ a {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    position: relative;
+    overflow: hidden;
 }
 .Center_Objectives .Center_Objectives_Info{
     background: linear-gradient( to top  , #0D395D   ,  #1C77C3  , #0D395D  );
     padding: 120px 80px;
-    
+    position: relative;
+    overflow: hidden;
 }
 .Center_Objectives .Center_Objectives_Info h2{
     font-family: var(--bold);
@@ -821,6 +843,8 @@ a {
 }
 .Domino_Game_Data .Domino_Game_Image{
     height: 100%;
+    position: relative;
+    overflow: hidden;
 }
 .Domino_Game_Data .Domino_Game_Image img{
     width:263px ;
@@ -844,6 +868,8 @@ a {
     padding: 30px;
     border: none;
     border-radius: 10px;
+    position: relative;
+    overflow: hidden;
 }
 .Game_System_Data .How_To_Play h2{
     font-family: var(--bold);
@@ -866,6 +892,8 @@ a {
     padding: 30px;
     border: none;
     border-radius: 10px;
+    position: relative;
+    overflow: hidden;
 }
 .Game_System_Data .Number_Of_Players h2{
     font-family: var(--bold);
@@ -890,6 +918,8 @@ a {
     width: 73%;
     height: 448px;
     margin: 0 auto;
+    position: relative;
+    overflow: hidden;
 }
 .Organizing_Tournaments_Data h2{
     width: 100%;
@@ -1026,6 +1056,8 @@ a {
     width: 90%;
     height: 300px;
     margin: 0 auto;
+    position: relative;
+    overflow: hidden;
 }
 .Previous_Tournaments_Data h2{
     width: 100%;
@@ -1355,6 +1387,8 @@ a {
     padding: 50px;
     border: none;
     border-radius: 5px;
+    position: relative;
+    overflow: hidden;
 }
 .Contact_Hours .working_Hours{
     width: 35%;
@@ -1363,6 +1397,9 @@ a {
     border-radius: 5px;
     padding: 50px;
     align-content: center;
+    position: relative;
+    overflow: hidden;
+
 }
 .Contact_Information h2{
     font-family: var(--bold);
@@ -1458,6 +1495,8 @@ a {
     margin: 50px auto;
     background: linear-gradient( to left   ,  #1C77C3  , #0D395D  );
     border-radius: 5px;
+    position: relative;
+    overflow: hidden;
 }
 .Contact_Data .Social_Networking  h3{
     font-family: var(--bold);
